@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form in HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Quizo</h1>
+      <div class="nav-bar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Service</a>
+        <a href="#">Contact</a>
+        <button class="btn-login-popup">Login</button>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="form-box login">
+        <h1>Login</h1>
+        <form>
+          <div class="input-box">
+            <input type="text" placeholder="Username" required />
+            <i class="bx bx-user"></i>
+          </div>
+          <div class="input-box">
+            <label><input type="password" placeholder="Password" required /></label>
+            <ion-icon name="lock-closed"></ion-icon>
+          </div>
+          <div class="remember-forgot">
+            <label class="chk-box"><input type="checkbox"/> Remember me </label>
+            <a href="#" >Forgot password</a>
+          </div>
+          <button class="btn"> Login </button>
+          <div class="register-link">
+            <p>Dont have a account ? <a href="#">Register</a></p>
+          </div>
+        </form>
+      </div>
+      <div class="form-box register">
+        <h1>Register</h1>
+        <form>
+          <div class="input-box">
+            <input type="text" placeholder="Username" required />
+            <i class="bx bx-user"></i>
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="E-mail" required />
+            <ion-icon name="mail-outline"></ion-icon>
+          </div>
+          <div class="input-box">
+            <label><input type="password" placeholder="Password" required /></label>
+            <ion-icon name="lock-closed"></ion-icon>
+          </div>
+          <div class="remember-forgot">
+            <label class="chk-box"><input type="checkbox"/> I agree to the terms & conditions</label>
+          </div>
+          <button class="btn"> Register </button>
+        </form>
+      </div>
+  </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
