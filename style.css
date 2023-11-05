@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", "sans-serif";
 }
 
 header {
@@ -25,7 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url("background.jpg") no-repeat;
+  background: url("pic2.png") no-repeat;
   background-size: cover;
 }
 
@@ -95,7 +95,7 @@ header .nav-bar {
   backdrop-filter: blur(20px);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: #496583;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +104,7 @@ header .nav-bar {
   transition: transform 0.5s ease, height 0.2s ease;
 }
 
-.wrapper.Pop-Up-Btn {
+.wrapper.Pop-Up-Btn{
   transform: scale(1);
 }
 
@@ -147,13 +147,14 @@ header .nav-bar {
   right: 0;
   width: 30px;
   height: 30px;
-  font-size: 2em;
+  font-size: 1em;
   display: flex;
   align-items: center;
   justify-content: center;
   border-bottom-left-radius: 10px;
   cursor: pointer;
-  background-color: rgba(14, 30, 87, 0.761);
+  color: #fff;
+  background-color: #496583;
 }
 
 .form-box.register label {
@@ -179,7 +180,7 @@ header .nav-bar {
 }
 
 .input-box input::placeholder {
-  color: white;
+  color: #496583;
 }
 
 .input-box i {
@@ -188,7 +189,7 @@ header .nav-bar {
   top: 50%;
   transform: translateY(-10px);
   font-size: 20px;
-  color: white;
+  color: #496583;
 }
 
 .input-box ion-icon {
@@ -197,7 +198,7 @@ header .nav-bar {
   top: 50%;
   transform: translateY(-10px);
   font-size: 20px;
-  color: white;
+  color: #496583;
 }
 
 .form-box .remember-forgot {
@@ -214,8 +215,9 @@ header .nav-bar {
 }
 
 .remember-forgot a {
-  color: white;
+  color: #496583;
   text-decoration: none;
+  font-size: 1em;
 }
 
 .remember-forgot a:hover {
@@ -229,7 +231,7 @@ header .nav-bar {
   border-radius: 40px;
   border: none;
   outline: none;
-  background-color: rgba(14, 30, 87, 0.761);
+  background-color: #496583;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   font-size: 17px;
@@ -238,8 +240,9 @@ header .nav-bar {
 }
 
 .btn:hover {
-  /* color: rgba(14, 30, 87, 0.761); */
-  background-color: black;
+  background-color: #c6caede3;
+  color: #496583;
+  border: 2px solid #496583;
 }
 
 .link {
@@ -250,7 +253,7 @@ header .nav-bar {
 }
 
 .link p a {
-  color: white;
+  color: #496583;
   text-decoration: none;
   font-weight: 600;
 }
